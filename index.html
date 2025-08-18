@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Expense Tracker Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Expense Tracker</h1>
+  <button onclick="logout()">Logout</button>
+  <h2 id="total">Total: $0</h2>
+  <form id="expense-form">
+    <input type="hidden" id="expenseId">
+    <input type="text" id="title" placeholder="Expense Title" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <button type="submit">Add Expense</button>
+  </form>
+  <ul id="expense-list"></ul>
+  <script src="auth.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

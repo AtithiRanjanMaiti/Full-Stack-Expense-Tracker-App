@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+input, button {
+  padding: 8px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
